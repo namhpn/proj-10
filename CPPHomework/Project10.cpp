@@ -585,7 +585,7 @@ void UserPlayer(){
     }
 
     currLoc.row = srow; currLoc.col = scol; steps[totalStep++] = matrix[currLoc.row][currLoc.col];
-    while(lastVal){
+    while(!lastVal){
         Sleep(700);
         system("cls");          //Xoa tat ca de co the thao tac tren ma tran
     	cout<<"Vi tri bat dau cua Robot la: ("<<srow<<","<<scol<<")"<<endl;
@@ -654,7 +654,7 @@ int main()
         cout<<"\t\tC. Hai Robot lan luot di tren mot me cung nhung khong di nhung o trung nhau."<<endl;
         cout<<"\t\tD. Nguoi choi tu chon buoc di tiep theo cua robot."<<endl;
         cout<<"\t\tE. Thoat game."<<endl;
-        cout<<"\t\tVui long chon [A/B/C/D]: "; cin>>*opt;
+        cout<<"\t\tVui long chon [A/B/C/D/E]: "; cin>>*opt;
 
         switch(*opt){
             case 'A': case 'a':
