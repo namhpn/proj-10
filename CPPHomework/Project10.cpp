@@ -586,7 +586,6 @@ void UserPlayer(){
 
     currLoc.row = srow; currLoc.col = scol; steps[totalStep++] = matrix[currLoc.row][currLoc.col];
     while(!lastVal){
-        Sleep(700);
         system("cls");          //Xoa tat ca de co the thao tac tren ma tran
     	cout<<"Vi tri bat dau cua Robot la: ("<<srow<<","<<scol<<")"<<endl;
     	cout << "Duong di cua Robot: " << endl;
