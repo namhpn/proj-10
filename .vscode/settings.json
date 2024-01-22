@@ -1,0 +1,15 @@
+{
+    "cmake.configureOnOpen": true,
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "new": "cpp",
+        "fstream": "cpp",
+        "complex": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp"
+    }
+}
